@@ -28,14 +28,17 @@
   
   <form>
     <div class="container bn" >
-    <a href="login.html" class="active">Login</a>
-    <a href="signup.html"> Sign up </a>
+    <a href="login.html" >Login</a>
+    <a href="signup.html" class="active"> Sign up </a>
     </div>
     <div class="container">
     <label for="username">Username</label>
     <input type="text" id="username" placeholder="Username" required>
     <label for="password">Password</label>
     <input type="password" id="password" placeholder="Password" required>
+
+    <label for="password">Confirm-Password</label>
+    <input type="password" id="password-re" placeholder="Re-enter Password" required>
     <button type="submit">Login</button>
     <input type="checkbox" checked="checked"> Remember me   
     <button type="button" class="cancelbtn"> Cancel</button>   
